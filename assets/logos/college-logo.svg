@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 470" role="img" aria-label="IP College of Education, Jassia, Rohtak — official logo">
+  <defs>
+    <radialGradient id="gold" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#FFE066"/>
+      <stop offset="60%" stop-color="#FFC93B"/>
+      <stop offset="100%" stop-color="#F0A020"/>
+    </radialGradient>
+    <path id="ringText" d="M 87.4,265 A 130,130 0 1 1 312.6,265" fill="none"/>
+    <g id="st">
+      <polygon points="0,-16 3.76,-5.18 15.22,-4.94 6.09,1.98 9.40,12.94 0,6.4 -9.40,12.94 -6.09,1.98 -15.22,-4.94 -3.76,-5.18"/>
+    </g>
+  </defs>
+
+  <!-- scalloped navy seal -->
+  <circle cx="200" cy="200" r="160" fill="#0B3049"/>
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#0B3049" stroke-width="22" stroke-dasharray="13 11"/>
+  <!-- white + red rings -->
+  <circle cx="200" cy="200" r="151" fill="#FFFFFF"/>
+  <circle cx="200" cy="200" r="147" fill="#C1272D"/>
+  <circle cx="200" cy="200" r="114" fill="#FFFFFF"/>
+  <circle cx="200" cy="200" r="106" fill="url(#gold)"/>
+
+  <!-- ring text -->
+  <text font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" font-size="29" fill="#FFFFFF" letter-spacing="1">
+    <textPath xlink:href="#ringText" href="#ringText" startOffset="50%" text-anchor="middle" textLength="536" lengthAdjust="spacingAndGlyphs">IP COLLEGE OF EDUCATION, JASSIA (ROHTAK)</textPath>
+  </text>
+
+  <!-- torch flame -->
+  <path d="M200,116 C212,139 219,152 219,165 a19,23 0 1 1 -38,0 C181,152 188,139 200,116 Z" fill="#F26522"/>
+  <path d="M200,139 C206,151 209,158 209,166 a9,11 0 1 1 -18,0 C191,158 194,151 200,139 Z" fill="#FFD23B"/>
+  <!-- torch bowl + handle -->
+  <rect x="185" y="185" width="30" height="13" rx="4" fill="#141414"/>
+  <rect x="193.5" y="198" width="13" height="70" rx="6" fill="#141414"/>
+
+  <!-- open book -->
+  <path d="M148,232 Q174,220 200,230 Q226,220 252,232 L252,270 Q226,258 200,268 Q174,258 148,270 Z" fill="#FFFFFF" stroke="#C1272D" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="200" y1="230" x2="200" y2="268" stroke="#C1272D" stroke-width="3"/>
+  <g stroke="#C9A227" stroke-width="2" stroke-linecap="round">
+    <line x1="158" y1="240" x2="190" y2="246"/>
+    <line x1="158" y1="248" x2="190" y2="254"/>
+    <line x1="158" y1="256" x2="190" y2="262"/>
+    <line x1="210" y1="246" x2="242" y2="240"/>
+    <line x1="210" y1="254" x2="242" y2="248"/>
+    <line x1="210" y1="262" x2="242" y2="256"/>
+  </g>
+  <!-- bookmark -->
+  <path d="M168,228 L176,228 L176,246 L172,241 L168,246 Z" fill="#1D5D91"/>
+
+  <!-- three stars -->
+  <use xlink:href="#st" href="#st" x="155" y="318" fill="#FFFFFF"/>
+  <use xlink:href="#st" href="#st" x="200" y="326" fill="#FFFFFF"/>
+  <use xlink:href="#st" href="#st" x="245" y="318" fill="#FFFFFF"/>
+
+  <!-- ribbon tails -->
+  <path d="M72,378 L36,384 L46,399 L36,414 L74,409 Z" fill="#A51E24"/>
+  <path d="M328,378 L364,384 L354,399 L364,414 L326,409 Z" fill="#A51E24"/>
+  <!-- ribbon band -->
+  <path d="M62,372 L338,372 L328,424 L72,424 Z" fill="#C1272D"/>
+  <path d="M62,372 L338,372 L336,380 L64,380 Z" fill="#D94A50"/>
+  <text x="200" y="406" text-anchor="middle" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" font-size="24" letter-spacing="2" fill="#FFFFFF">JASSIA, ROHTAK</text>
+</svg>
